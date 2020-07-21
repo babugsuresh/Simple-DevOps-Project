@@ -37,8 +37,8 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
  You can install jenkins using the rpm or by setting up the repo. We will set up the repo so that we can update it easily in the future.
 1. Get the latest version of jenkins from https://pkg.jenkins.io/redhat-stable/ and install
    ```sh
-   yum -y install wget
-   sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   yum -y install wget #World wide web to Get, to get something from webserver over HTTP, HTTPs, FTP etc..
+   sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo # Red-hat Package Manager (RPM) for Jenkins, compiled versions of s/w.
    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
    yum -y install jenkins
    ```
